@@ -1,38 +1,850 @@
-.App {
+.desktop-wrapper {
+  height: 916px;
+}
+.header-main {
+  position: absolute;
+  width: 1008px;
+  height: 303px;
+  left: 62px;
+  top: 48px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 120%;
+  display: flex;
+  flex-direction: column;
+}
+.crypto-header {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #F2F2F2;
+}
+.quick-header {
+  background: linear-gradient(90deg, rgb(139, 94, 184) 0%, rgba(77, 207, 144, 0.984) 54%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.subscribe-header {
+  position: absolute;
+  width: 621px;
+  height: 41px;
+  left: 62px;
+  top: 395px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  color: #828282;
+}
+.advantages-main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 126px;
+  position: absolute;
+  width: 554px;
+  height: 74px;
+  left: 62px;
+  top: 524px;
+}
+.subscribers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+  width: 97px;
+  height: 74px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.amount-sub {
+  width: 97px;
+  height: 48px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #F2F2F2;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.sub-name {
+  width: 62px;
+  height: 24px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: rgba(242, 242, 242, 0.3);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.cases {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+  width: 101px;
+  height: 74px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.amount-cases {
+  width: 101px;
+  height: 48px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #F2F2F2;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.cases-name {
+  width: 91px;
+  height: 24px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: rgba(242, 242, 242, 0.3);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+  width: 104px;
+  height: 74px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.rating-quantity {
+  width: 104px;
+  height: 48px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #F2F2F2;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.rating-name {
+  width: 31px;
+  height: 24px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: rgba(242, 242, 242, 0.3);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.join-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 0px;
+  position: absolute;
+  width: 532px;
+  height: 56px;
+  left: 62px;
+  top: 698px;
+  background: linear-gradient(92.01deg, rgba(124, 111, 207, 0.97) 0%, rgba(116, 174, 170, 0.95) 49.13%, #6FCF97 100%);
+  box-shadow: 0px 0px 150px rgba(165, 191, 180, 0.42);
+  border-radius: 16px;
+}
+.join-text {
+  width: 146px;
+  height: 28px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 28px;
   text-align: center;
+  text-transform: uppercase;
+  color: #1C1A1A;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.google-play-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 8px;
+  position: absolute;
+  width: 132px;
+  height: 54px;
+  left: 62px;
+  top: 830px;
+  background: rgba(48, 45, 45, 0.34);
+  backdrop-filter: blur(14px);
+  border-radius: 12px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.play-icon {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.play-text-wrapper, .app-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+  gap: 2px;
+  height: 69px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.play-text1 {
+  width: 29px;
+  height: 12px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(242, 242, 242, 0.4);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.play-text2 {
+  width: 69px;
+  height: 24px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(242, 242, 242, 0.4);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.app-store-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 8px;
+  position: absolute;
+  width: 132px;
+  height: 54px;
+  left: 214px;
+  top: 830px;
+  background: rgba(48, 45, 45, 0.34);
+  backdrop-filter: blur(14px);
+  border-radius: 12px;
+}
+.app-icon {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.app-text1 {
+  width: 56px;
+  height: 12px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgba(242, 242, 242, 0.4);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.app-text2 {
+  width: 56px;
+  height: 24px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(242, 242, 242, 0.4);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.review-1-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 0px 16px 20px;
+  gap: 16px;
+  position: absolute;
+  width: 288px;
+  height: 138px;
+  left: 1070px;
+  top: 172px;
+  background: rgba(48, 45, 45, 0.34);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+}
+.user-1-info, .user-2-info, .user-3-info, .user-4-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 125px;
+  height: 48px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.user-photo-1, .user-photo-2, .user-photo-3, .user-photo-4 {
+  width: 48px;
+  height: 48px;
+  background: url("../public/images/user-1.png");
+  background-size: contain;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.user-photo-2 {
+  background: url("../public/images/user-2.png");
+  background-size: contain;
+}
+.user-photo-3 {
+  background: url("../public/images/user-3.png");
+  background-size: contain;
+}
+.user-photo-4 {
+  background: url("../public/images/user-4.png");
+  background-size: contain;
+}
+.user-text-info-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+  width: 57px;
+  height: 46px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.user-text-1-1, .user-text-2-1, .user-text-3-1, .user-text-4-1 {
+  width: 56px;
+  height: 24px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #F2F2F2;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.user-text-1-2, .user-text-2-2, .user-text-3-2, .user-text-4-2 {
+  width: 57px;
+  height: 20px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: rgba(242, 242, 242, 0.4);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.user-review-1-text, .user-review-2-text, .user-review-3-text, .user-review-4-text {
+  width: 222px;
+  height: 42px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 115%;
+  color: #F2F2F2;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.review-2-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 0px 16px 20px;
+  gap: 16px;
+  position: absolute;
+  width: 288px;
+  height: 138px;
+  left: 958px;
+  top: 334px;
+  background: rgba(48, 45, 45, 0.34);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+}
+.review-3-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 0px 16px 20px;
+  gap: 16px;
+  position: absolute;
+  width: 288px;
+  height: 138px;
+  left: 1074px;
+  top: 496px;
+  background: rgba(48, 45, 45, 0.34);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+}
+.review-4-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 0px 16px 20px;
+  gap: 16px;
+  position: absolute;
+  width: 288px;
+  height: 138px;
+  left: 958px;
+  top: 658px;
+  background: rgba(48, 45, 45, 0.34);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+}
+.bitcoin-icon {
+  position: absolute;
+  width: 312px;
+  height: 352px;
+  left: 1066px;
+  top: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bitcoin {
+  position: absolute;
+  width: 189.28px;
+  height: 301.39px;
+  left: 5.38px;
+  top: -40px;
+  filter: blur(9px);
+  transform: rotate(17.25deg);
+  z-index: -1;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bibitcoin {
+  color: #3A3656;
+  font-size: 360px;
+}
+.litecoin-icon {
+  position: absolute;
+  width: 312px;
+  height: 324px;
+  left: 846px;
+  top: calc(50% - 324px/2 - 19px);
+}
+.litecoin {
+  position: absolute;
+  width: 224.73px;
+  height: 253.37px;
+  left: 64px;
+  top: 23px;
+  filter: blur(9px);
+  transform: rotate(0deg);
+  background: url("../public/images/litecoin.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.ethereum-icon {
+  position: absolute;
+  width: 312px;
+  height: 408px;
+  left: 1066px;
+  bottom: 0px;
+}
+.ethereum {
+  position: absolute;
+  width: 235.4px;
+  height: 379.52px;
+  left: 45px;
+  top: 10px;
+  filter: blur(9px);
+  transform: rotate(5deg);
+  background: url("../public/images/ethereum-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+/* Mobile css rules */
+.mobile-response {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 320px;
+  height: 568px;
+}
+.mb-text-header {
+  margin: 20px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 108%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  color: #F2F2F2;
+}
+.text-1-1 {
+  width: 288px;
+  white-space: none;
+  text-align: center;
+}
+.crypto-text {
+  word-break: break-all;
+  padding: 0px 10px;
+  text-align: center;
+}
+.text-1-3 {
+  background: linear-gradient(220deg, rgba(70,187,99,1) 0%, rgba(146,100,196,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  word-break: keep-all;
+}
+.mt-text-header-2 {
+  width: 204px;
+  height: 48px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #828282;
+}
+.advantages-wrapper-mb {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+  padding: 0px 20px;
+}
+.sub-main-mb, .cases-main-mb, .rating-main-mb {
+  display: flex;
+  flex-direction: column;
+}
+.sub-amount-mb {
+  width: 57px;
+  height: 28px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #F2F2F2;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.sub-name-mb {
+  width: 49px;
+  height: 20px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: rgba(242, 242, 242, 0.3);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.cases-amount-mb {
+  width: 59px;
+  height: 28px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #F2F2F2;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.cases-name-mb {
+  width: 71px;
+  height: 20px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: rgba(242, 242, 242, 0.3);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.rating-amount-mb {
+  width: 61px;
+  height: 28px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #F2F2F2;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.rating-name-mb {
+  width: 25px;
+  height: 20px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: rgba(242, 242, 242, 0.3);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.join-whatsapp-mb {
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0px;
+  width: 288px;
+  height: 48px;
+  background: linear-gradient(92.01deg, rgba(124, 111, 207, 0.97) 0%, rgba(116, 174, 170, 0.95) 49.13%, #6FCF97 100%);
+  box-shadow: 0px 0px 110px rgba(165, 191, 180, 0.32);
+  border-radius: 16px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #1C1A1A;
+}
+.link-to-apps-mb {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.link-to-google-paly-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 8px;
+  width: 100px;
+  height: 34px;
+  background: rgba(48, 45, 45, 0.34);
+  backdrop-filter: blur(14px);
+  border-radius: 12px;
+}
+.GP-icon-mb, .AS-icon-mb {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+.GP-text-1-mb {
+  width: 24px;
+  height: 10px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: rgba(242, 242, 242, 0.4);
+}
+.GP-text-2-mb {
+  width: 48px;
+  height: 14px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(242, 242, 242, 0.4);
+}
+.link-to-app-store-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 8px;
+  width: 100px;
+  height: 34px;
+  background: rgba(48, 45, 45, 0.34);
+  backdrop-filter: blur(14px);
+  border-radius: 12px;
+}
+.AS-text-1-mb {
+  width: 24px;
+  height: 10px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: rgba(242, 242, 242, 0.4);
+}
+.AS-text-2-mb {
+  width: 40px;
+  height: 14px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(242, 242, 242, 0.4);
+}
+.bitcoin-icon-mb {
+  position: absolute;
+  width: 136px;
+  height: 188px;
+  left: 168px;
+  top: 0px;
+  z-index: -1;
+  overflow: hidden;
+}
+.bibitcoin-mb {
+  position: absolute;
+  left: -10px;
+  top: 0px;
+  filter: blur(9px);
+  transform: rotate(17.25deg);
+  color: #3A3656;
+  font-size: 180px;
+}
+.litecoin-icon-mb {
+  position: absolute;
+  width: 140px;
+  height: 160px;
+  left: 16px;
+  top: 70px;
+  z-index: -1;
 }
 
-.App-link {
-  color: #61dafb;
+.litecoin-mb {
+  position: absolute;
+  width: 113.43px;
+  height: 127.89px;
+  left: 15px;
+  top: 19px;
+  filter: blur(9px);
+  background: url("../public/images/litecoin.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.ethereum-icon-mb {
+  position: absolute;
+  width: 136px;
+  height: 214px;
+  left: 168px;
+  top: 203px;
+}
+.ethereum-mb {
+  position: absolute;
+  width: 123.13px;
+  height: 198.51px;
+  left: 15px;
+  top: 0px;
+  filter: blur(9px);
+  transform: rotate(8.65deg);
+  background: url("../public/images/ethereum-1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
